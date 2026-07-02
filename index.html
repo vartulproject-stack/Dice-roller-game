@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 19/100 - Dice Roll | Vartul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Dice Roller</h1>
+        <p class="day">Day 19/100 - Dubai 19% 🇦🇪</p>
+
+        <div class="dice-container">
+            <div class="dice" id="dice">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face right"></div>
+                <div class="face left"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+            </div>
+        </div>
+
+        <h2 id="result">Roll Karo Bhai</h2>
+
+        <button class="roll-btn" onclick="rollDice()">Roll Dice</button>
+
+        <div class="stats">
+            <p>Total Rolls: <span id="totalRolls">0</span></p>
+            <p>Last 5: <span id="history">-</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
